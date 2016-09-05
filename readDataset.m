@@ -18,7 +18,7 @@ files = dir( [datasetRoute, '*.', labelFileTpype] );
 fileNum = length(files);
 imCell = cell(fileNum,1);
 labCell = cell(fileNum,1);
-parfor i = 1:fileNum
+for i = 1:fileNum
     name = files(i).name;
     lab = imread([datasetRoute, name]);
     if strcmp(dataset,'sunny-shadows')==true
