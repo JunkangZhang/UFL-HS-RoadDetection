@@ -57,7 +57,7 @@ predIterCell = cell(fileNum,1);
 setLabel = zeros(fileNum,1);
 
 tic
-parfor i = 1:fileNum
+for i = 1:fileNum
     [predCell{i}, ~, predIterCell{i}] = ...
             RoadDetection(imCell{i}, param);
 end
