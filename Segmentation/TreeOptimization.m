@@ -1,6 +1,13 @@
 function [segments, retStability] ...
         = TreeOptimization(im, multiTh, numSample, minPts, reconstErrorMap, paramE, thFilter)
 % including tree construction and optimization 
+% The basic idea of this optimization process is based on the following papers
+% [1] Ricardo J. G. B. Campello, Davoud Moulavi, Joerg Sander. 
+%     Density-Based Clustering Based on Hierarchical Density Estimates. 
+%     PAKDD, 2013
+% [2] Ricardo J. G. B. Campello, Davoud Moulavi, Arthur Zimek, Joerg Sande. 
+%     Hierarchical Density Estimates for Data Clustering, Visualization, and Outlier Detection. 
+%     TKDD, 2015
 
 dim = size(im);
 sp = dim(1)*dim(2);
