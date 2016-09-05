@@ -2,7 +2,8 @@
 
 Code for our paper 
 
-Junkang Zhang, Siyu Xia, Kaiyu Lu, Hong Pan, A. K. Qin. ***Robust Road Detection from a Single Image***. ICPR, 2016
+Junkang Zhang, Siyu Xia, Kaiyu Lu, Hong Pan, A. K. Qin.  
+**Robust Road Detection from a Single Image**. ICPR, 2016
 
 ### Introduction
 
@@ -18,5 +19,5 @@ For example, to get the result on After-Rain dataset
 
 2. (Optional) If you are using a multi-core cpu and have sufficient memory, you can use *parfor* (in line 60) to speed up the testing process. 
  
-3. Run `main.m`. 
+3. Run `main.m`. The P, R, F values will be printed in the command window. The detection results are stored in the *predCell* variable. 
 
