@@ -64,11 +64,5 @@ end
 toc
 
 %% result
-% [tot, sep] = evaluationPRF(predCell, labCell);
-% fprintf('F: %f  -- F-sep: %f\n', tot.F, mean(sep.F(:)));
-% figure(41); cla; hold on;
-% plot(1:fileNum, sep.P, 'b-'); hold on
-% plot(1:fileNum, sep.R, 'g-'); hold on
-% plot(1:fileNum, sep.F, 'r-'); hold on
-% axis([0,fileNum, 0,1])
-
+[tot, sep] = evaluationPRF(predCell, labCell);
+fprintf('F: %f \nP: %f     R: %f\n', tot.F, tot.P, tot.R);
