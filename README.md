@@ -2,8 +2,8 @@
 
 Code for our paper 
 
-Junkang Zhang, **[Siyu Xia](http://automation.seu.edu.cn/Articles.aspx?id=2310)**, Kaiyue Lu, Hong Pan, A. K. Qin.  
-**[Robust Road Detection from a Single Image](https://doi.org/10.1109/ICPR.2016.7899743)**.  
+Junkang Zhang, **[Siyu Xia](http://automation.seu.edu.cn/Articles.aspx?id=2310)**, Kaiyue Lu, Hong Pan, A. K. Qin.  <br>
+**[Robust Road Detection from a Single Image](https://doi.org/10.1109/ICPR.2016.7899743)**.  <br>
 23rd International Conference on Pattern Recognition (ICPR), 2016
 
 ### Introduction
